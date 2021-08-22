@@ -4,12 +4,12 @@ using System.Text;
 
 namespace benju.Common.Responses
 {
-    class Response
+    public class Response
     {
-        public bool InSuccess { get; set; }
+        public bool IsSuccess { get; set; }
 
-        public String Messeage { get; set; }
+        public string Message { get; set; }
 
-        public bool IsCompleted { get; set; }
+        public object Result { get; set; }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace benju.Common.Models
 {
-    class Todo
+    public class Todo
     {
         public DateTime CreatedTime { get; set; }
 
